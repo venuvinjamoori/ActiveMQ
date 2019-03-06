@@ -1,0 +1,20 @@
+1.Open Eclipse IDE import all JBOSS Projects
+
+2.Start JBoss Server from Eclipse IDE
+
+3. Start ActiveMQ from Windows command prompt and go to Location C:\Users\Administrator\Documents\JBoss-Proj\apache-activemq-5.14.5-bin\apache-activemq-5.14.5\bin
+
+by providing following command
+
+ activemq start
+
+4.Run Test Client as Java Application and request will be placed on ActiveMQ request Que
+
+5.open Active MQ page http://localhost:8161/
+
+userName: admin
+password: admin
+
+
+6.check Response Que has the Response message on Active MQ Server page
+
